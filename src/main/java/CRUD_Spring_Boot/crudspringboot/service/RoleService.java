@@ -1,4 +1,4 @@
-package CRUD_Spring_Boot.crudspringboot.Service;
+package CRUD_Spring_Boot.crudspringboot.service;
 
 import CRUD_Spring_Boot.crudspringboot.model.Role;
 

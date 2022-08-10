@@ -1,4 +1,4 @@
-package CRUD_Spring_Boot.crudspringboot.Service;
+package CRUD_Spring_Boot.crudspringboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

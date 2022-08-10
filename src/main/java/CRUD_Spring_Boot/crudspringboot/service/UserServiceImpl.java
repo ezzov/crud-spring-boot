@@ -1,10 +1,9 @@
-package CRUD_Spring_Boot.crudspringboot.Service;
+package CRUD_Spring_Boot.crudspringboot.service;
 
 import CRUD_Spring_Boot.crudspringboot.DAO.UserDAO;
 import CRUD_Spring_Boot.crudspringboot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -61,9 +60,5 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public User loadUserByUsername(String s) throws UsernameNotFoundException {
         return userDAO.loadUserByUsername(s);
-    }
-
-    private BCryptPasswordEncoder bCryptPasswordEncoder() {
-        return new BCryptPasswordEncoder();
     }
 }
