@@ -1,4 +1,4 @@
-package CRUD_Spring_Boot.crudspringboot.controller;
+package CRUD_Spring_Boot.crudspringboot.controllers;
 
 import CRUD_Spring_Boot.crudspringboot.service.RoleService;
 import CRUD_Spring_Boot.crudspringboot.service.UserService;

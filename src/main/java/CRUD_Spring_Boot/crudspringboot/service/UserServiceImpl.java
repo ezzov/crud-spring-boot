@@ -1,6 +1,6 @@
 package CRUD_Spring_Boot.crudspringboot.service;
 
-import CRUD_Spring_Boot.crudspringboot.DAO.UserDAO;
+import CRUD_Spring_Boot.crudspringboot.dao.UserDAO;
 import CRUD_Spring_Boot.crudspringboot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
